@@ -1109,7 +1109,7 @@ EXPORT_SYMBOL_GPL(xas_split);
  * found during a walk require you to call xas_pause(), the xa_for_each()
  * iterator may be more appropriate.
  *
- * Note that xas_pause() only works for forward iteration.  If a user needs
+ * Note that xas_pause() only works for forward iterations.  If a user needs
  * to pause a reverse iteration, we will need a xas_pause_rev().
  */
 void xas_pause(struct xa_state *xas)
